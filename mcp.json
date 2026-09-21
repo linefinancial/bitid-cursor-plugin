@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "bitid-machine-agent": {
+    "bitid-mcp": {
       "url": "https://dev.bitid.org/v1/mcp-proxy/ds/machine-agent-layer/mcp/api/v2",
       "headers": {
         "x-service-account-key": "${BITID_SERVICE_ACCOUNT_KEY}"

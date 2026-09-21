@@ -1,5 +1,5 @@
 {
-  "name": "bitid-machine-agent",
+  "name": "bitid-mcp",
   "version": "0.1.0",
   "description": "Issue decentralized identities for humans and AI agents, mint scoped delegation credentials, and authorize agent actions with zero-knowledge proofs via BitID.",
   "author": {

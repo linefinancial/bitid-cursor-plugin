@@ -1,4 +1,4 @@
-# BitID Machine Agent
+# BitID MCP
 
 Give AI agents verifiable identity and scoped authority. This plugin connects Cursor to
 BitID's machine-agent layer so the agent can onboard decentralized identifiers (DIDs),
@@ -8,7 +8,7 @@ zero-knowledge proofs — instead of handing an agent a long-lived API key.
 ## Install
 
 1. Install this plugin from the Cursor Marketplace.
-2. Go to **Cursor Settings → Plugins → BitID Machine Agent → Configure**.
+2. Go to **Cursor Settings → Plugins → BitID MCP → Configure**.
 3. Paste your **service account key** (`bit_sk_…`). Create one in the BitID dashboard
    under *Service Accounts*.
 
