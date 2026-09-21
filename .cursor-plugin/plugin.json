@@ -1,0 +1,33 @@
+{
+  "name": "bitid-machine-agent",
+  "version": "0.1.0",
+  "description": "Issue decentralized identities for humans and AI agents, mint scoped delegation credentials, and authorize agent actions with zero-knowledge proofs via BitID.",
+  "author": {
+    "name": "BitID",
+    "email": "vishal.chaudhary@trybeem.com"
+  },
+  "homepage": "https://bitid.org",
+  "repository": "https://github.com/vishal-beem/bitid-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "identity",
+    "did",
+    "verifiable-credentials",
+    "authorization",
+    "agent-authorization",
+    "zero-knowledge"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BITID_SERVICE_ACCOUNT_KEY": {
+        "type": "string",
+        "title": "BitID service account key",
+        "description": "Your BitID service account key (starts with bit_sk_). Create one in the BitID dashboard under Service Accounts. This key identifies and authenticates you to the machine-agent layer."
+      }
+    },
+    "required": ["BITID_SERVICE_ACCOUNT_KEY"]
+  }
+}
