@@ -17,7 +17,7 @@
     "agent-authorization",
     "zero-knowledge"
   ],
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "mcpServers": "mcp.json",
   "variables": {
     "type": "object",
@@ -28,6 +28,8 @@
         "description": "Your BitID service account key (starts with bit_sk_). Create one in the BitID dashboard under Service Accounts. This key identifies and authenticates you to the machine-agent layer."
       }
     },
-    "required": ["BITID_SERVICE_ACCOUNT_KEY"]
+    "required": [
+      "BITID_SERVICE_ACCOUNT_KEY"
+    ]
   }
 }
